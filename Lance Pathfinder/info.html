@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lance's Pathfinder Prototype</title>
+    <meta charset="UTF-8">
+       <script src="../Ruffle/ruffle.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1>Lance's Pathfinder Prototype</h1>
+
+        <div id="container1"></div>
+        <script>
+            window.RufflePlayer = window.RufflePlayer || {};
+            window.addEventListener("load", (event) => {
+                const ruffle = window.RufflePlayer.newest();
+                const player = ruffle.createPlayer();
+                const container = document.getElementById("container1");
+                container.appendChild(player);
+                player.load("Pathfind-Lance_Pr-335.swf");
+            });
+        </script>
+
+        <p>Source: <a href="http://web.archive.org/web/20011203195536/http://www.flashkit.com/movies/Games/Components/Pathfind-Lance_Pr-335/index.shtml">
+            http://web.archive.org/web/20011203195536/http://www.flashkit.com/movies/Games/Components/Pathfind-Lance_Pr-335/index.shtml
+        </a></p>
+    </div>
+</body>
+</html>
