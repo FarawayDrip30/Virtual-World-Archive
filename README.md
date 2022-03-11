@@ -15,6 +15,6 @@
 
 <div align="center">
 	<sub>
-	This is archive is only for educational and research use.
+	This is archive is for educational and research use only.
 	</sub>
 </div>
