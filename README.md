@@ -10,6 +10,7 @@
 
 **Games Archived:**
  1. [Lance Pathfinder](https://github.com/FarawayDrip30/Virtual-World-Archive/tree/main/Lance%20Pathfinder "Lance Pathfinder")
+ 2. [Contact Music Penguin Chat](https://github.com/FarawayDrip30/Virtual-World-Archive/tree/main/Contact%20Music%20Penguin%20Chat "Contact Music Penguin Chat")
 
 ---
 
