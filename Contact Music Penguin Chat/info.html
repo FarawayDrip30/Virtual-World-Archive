@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact Music Penguin Chat</title>
+	<meta charset="UTF-8">
+	   <script src="../Ruffle/ruffle.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+	<body>
+		<div style="text-align: center;">
+			<h1>Contact Music Penguin Chat</h1>
+
+			<div id="container1"></div>
+			<script>
+				window.RufflePlayer = window.RufflePlayer || {};
+				window.addEventListener("load", (event) => {
+					const ruffle = window.RufflePlayer.newest();
+					const player = ruffle.createPlayer();
+					const container = document.getElementById("container1");
+					container.appendChild(player);
+					player.load("cmusic-115c.swf");
+				});
+			</script>
+
+			<p>
+				<b>ATTENTION: THIS IS A MODIFIED VERSION TO WORK OFFLINE!</b>
+				<br><br>
+				Source: 
+				<a href="https://web.archive.org/web/20110722200823/http://www.penguinchat.com/cmusic-115c.swf">
+					https://web.archive.org/web/20110722200823/http://www.penguinchat.com/cmusic-115c.swf
+				</a>
+				<br>
+				All rights reserved to:
+				<a href="https://www.contactmusic.com/">Contact Music</a>
+				and
+				<a href="https://rocketsnail.com/">RocketSnail</a>
+			</p>
+		</div>
+	</body>
+</html>
