@@ -1,0 +1,31 @@
+body{
+    text-align: left;
+}
+h1{
+    text-align: center;
+}
+
+.box{
+    outline-width: 1px;
+    outline-style: solid;
+    outline-color: black;
+
+    width: 500px;
+    max-width: 90%;
+
+    padding: 6px;
+    margin: 0 auto;
+    margin-bottom: 6px;
+}
+.clearBox{
+    width: 500px;
+    max-width: 90%;
+
+    padding: 6px;
+    margin: 0 auto;
+    margin-bottom: 6px;
+}
+
+#back{
+    text-align: left;
+}
